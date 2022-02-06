@@ -13,8 +13,9 @@ You can find the microservices designed for this project at the following links
 
 ## Docker
 1.  Clone servers in the same root folder
-2.  Place in the root folder the file [docker-compose.yml](https://github.com/oneCiser/PostCodeUK/blob/main/docker-compose.yml)
-3.  Execute the following command
+2.  Rename the folder directories as follows: **Save Data** as **load-file** and **Consume PostCodesIO** as **save-postcodes**.
+3.  Place in the root folder the file [docker-compose.yml](https://github.com/oneCiser/PostCodeUK/blob/main/docker-compose.yml)
+4.  Execute the following command
 
         $ docker-compose up
 
