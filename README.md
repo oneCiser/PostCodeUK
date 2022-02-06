@@ -1,5 +1,5 @@
 # PostCodeUK
-This is a microservices project with Express, Docker and MongoDB about postcodes in the UK. 
+This is a microservices project with Express, Docker and MongoDB on zip codes in the UK. We used a git flow and the git commit convention
 ## Requirements
  - NodeJS
  - Docker
