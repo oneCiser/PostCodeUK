@@ -17,6 +17,7 @@ You can find the microservices designed for this project at the following links
 3.  Place in the root folder the file [docker-compose.yml](https://github.com/oneCiser/PostCodeUK/blob/main/docker-compose.yml)
 4.  Execute the following command
 
+        $ docker-compose build
         $ docker-compose up
 
 ## Without Docker
