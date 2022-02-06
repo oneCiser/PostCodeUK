@@ -1,0 +1,29 @@
+version: '3'
+services:
+  csv:
+    build:
+      context: ./load-file
+    env_file: ./load-file/.env
+    depends_on:
+     - db
+     - postcodes
+    links:
+     - db
+     - postcodes
+    ports:
+     - "3000:3000"
+  postcodes:
+    
+    build:
+      context: ./save-postcodes
+    env_file: ./save-postcodes/.env
+    ports:
+     - "4000:4000"
+  db:
+    image: mongo
+    volumes:
+     - mongodata:/data/db
+    expose:
+     - "27017"
+volumes:
+  mongodata:
