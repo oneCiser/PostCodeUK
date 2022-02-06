@@ -34,17 +34,7 @@ The idea was to develop a service that would return the postal codes based on **
 For this, the data storage was designed with the ability to process and perform geospatial queries of MongoDB allowing to validate if the point sent already has a zip code registered in the database, if this is not the case, a PostCodes.IO query is performed.
 
 ## Logic
+[![](https://mermaid.ink/img/pako:eNqVks9OwzAMxl_FypX1BXLYgRYhDgikCk69WI0ZFakTEgcJbXt30j-rJjoNkVNr_-zvs5O9ap0hpVWkz0TcUtXhLmDfMOTjMUjXdh5Z4CVSWEdr_CKoUHCdKh3H1BM8uyhlFokPT2vo0fHOVbdTYpAottubpamG5K1DA2X9OiHWOZ87dixxCizsUDh303BPAkwYKAr4rD8MOfEzkuniTCaQpMB6YeFwAE7WTjVoZZwCLYxJdgJRXCBzwcOFsa_5uYD_yxvxbOLaOsboUo9s8k9e4d8b-aVx3r0Ybmvtbr6W01Eb1VPosTP5je2HXKPknXpqlM6fBsNHoxo-Zi55g0J3psubVfoNbaSNwiSu_uZWaQmJTtD8SGfq-AOroOt6)](https://mermaid.live/edit/#pako:eNqVks9OwzAMxl_FypX1BXLYgRYhDgikCk69WI0ZFakTEgcJbXt30j-rJjoNkVNr_-zvs5O9ap0hpVWkz0TcUtXhLmDfMOTjMUjXdh5Z4CVSWEdr_CKoUHCdKh3H1BM8uyhlFokPT2vo0fHOVbdTYpAottubpamG5K1DA2X9OiHWOZ87dixxCizsUDh303BPAkwYKAr4rD8MOfEzkuniTCaQpMB6YeFwAE7WTjVoZZwCLYxJdgJRXCBzwcOFsa_5uYD_yxvxbOLaOsboUo9s8k9e4d8b-aVx3r0Ybmvtbr6W01Eb1VPosTP5je2HXKPknXpqlM6fBsNHoxo-Zi55g0J3psubVfoNbaSNwiSu_uZWaQmJTtD8SGfq-AOroOt6)
 
-```mermaid
-    sequenceDiagram
-        autonumber
-        Alice->>John: Hello John, how are you?
-        loop Healthcheck
-            John->>John: Fight against hypochondria
-        end
-        Note right of John: Rational thoughts!
-        John-->>Alice: Great!
-        John->>Bob: How about you?
-        Bob-->>John: Jolly good!
-```
+
 
